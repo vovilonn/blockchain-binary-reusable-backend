@@ -1,5 +1,5 @@
 {
-    "name": "@tradex/blockchain-common",
+    "name": "@tradex-binary/blockchain-common",
     "version": "1.0.0",
     "description": "",
     "main": "lib/index.js",
