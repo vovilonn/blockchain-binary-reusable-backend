@@ -22,6 +22,8 @@ export class EventsService {
             return;
         }
 
+        this.isSyncJobRunning.set(eventKey, true);
+
         try {
             let lastProcessedBlock = await this.cacheManager.get<number>(eventKey);
             let lastBlockNumber: number;
